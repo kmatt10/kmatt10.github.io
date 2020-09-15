@@ -70,3 +70,5 @@ function resetGame() {
 	
 	randomNumber = Math.floor(Math.random() * 100) + 1;
 }
+
+alert("in main folder")

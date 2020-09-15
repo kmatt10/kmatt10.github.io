@@ -1,3 +1,14 @@
+let myImage = document.querySelector('img');
+
+myImage.onclick = function() {
+	let mySrc = myImage.getAttribute('src');
+	if(mySrc === 'images/coffee-logo.png'){
+		myImage.setAttribute('src','images/burger-logo.jpg');
+	} else {
+		myImage.setAttribute('src','images/coffee-logo.png');
+	}
+}
+
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 
@@ -15,7 +26,7 @@ if(!localStorage.getItem('name')){
 	setUserName();
 } else {
 	let storedName = localStorage.getItem('name');
-	myHeading.textContent = 'Welcome aboard, ' + storedName + '!';
+	myHeading.textContent = `Welcome aboard, ${storedName}!`;
 }
 
 myButton.onclick = function() {

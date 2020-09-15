@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/RPS.css" rel="stylesheet">
+	
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+	<h1>Rock Paper Scissors!</h1>
+	<p>Try and defeat the devious Javar</p>
+	
+	<div id="gameArea">
+		<h1 id="finalResult" style="display: none;">Placeholder</h1>
+		<span id="gameInfo">
+			<p id="playerScore">Player Score: 0</p>
+			<p id="pcScore">Javar Score: 0</p>
+			<p id="round">round 1</p>
+		</span>
+		<p id="subtext" style="display: none;">An explanation of the round</p>
+		<div id="userActions">
+			<div class="actionButtons">
+			<button id="rock">Rock!</button>
+			<button id="paper">Paper!</button>
+			<button id="scissor">Scissors!</button>
+			</div>
+		</div>
+		<div id="reset">
+		<div class="actionButtons">
+			<button id="resetGame" style="display: none;">Play Again?</button>
+		</div>
+		</div>
+	</div>
+	<a href="index.html">Home</a>
+  <script src="scripts/RPS.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+#calc_ops button,
+#calc_numbers button{
+  width: 45px;
+  height: 30px;
+  border: 1px solid #B2B2B2;
+  border-radius: 10px;
+}
+
+.num_row{
+	height: 35px;
+	width: 200px;
+}
+
+#calcDispArea{
+	width: 250px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: "Courier New", Courier, monospace;
+	border-radius: 7px;
+}
+
+#calc_display,
+#calc_inputs{
+	text-align: center;
+}
+#calc_inputs{
+	display: inline;
+}
+
+.op_row{
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+#calc_ops{
+	float: right;
+	margin-right: 165px;
+}
+
+#calc_numbers{
+	display: inline-block;
+	margin-left: 135px;
+}
+
+#calc_ops button{
+	background-color: #E6ECFE
+}

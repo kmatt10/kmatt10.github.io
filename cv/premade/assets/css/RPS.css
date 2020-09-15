@@ -1,0 +1,42 @@
+#gameArea h1 {
+	color: #1a75ff;
+	font-size: 32px;
+}
+
+#playerScore,
+#pcScore{
+	display: inline;
+}
+
+#pcScore{
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#round{
+	text-align: center;
+}
+
+#subtext{
+	text-align: center;
+}
+
+#reset,
+#userActions{
+	text-align: center;
+}
+
+.actionButtons{
+	display: inline-block;
+}
+
+#userActions button{
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#resetGame{
+	display: inline-block;
+	margin-top: 20px;
+}

@@ -21,3 +21,5 @@ if(!localStorage.getItem('name')){
 myButton.onclick = function() {
 	setUserName();
 }
+
+alert("Inside the premade folder");
